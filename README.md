@@ -1,3 +1,1 @@
-# Couple of Coder
-#sulava :wq
-
+# Couple of Coders coding library management system
