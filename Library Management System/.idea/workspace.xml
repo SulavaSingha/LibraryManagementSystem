@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d95877-6610-4be8-bc31-648de08fa99e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/Account/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/Lib/Librarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/Member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/Book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/Book/BookImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AccountStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/enums/AccountStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/user/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BookFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/enums/BookFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BookStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/enums/BookStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/user/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReservationStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/enums/ReservationStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/Lib/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/Lib/Librarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/Member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/Member/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,9 +150,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1589644658114" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589642874139">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589645828309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589642874139" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589645828309" />
   </component>
 </project>
