@@ -1,0 +1,8 @@
+use libraryManagementSystem;
+create table Book (
+c_id bigint(20) NOT NULL,
+ISBN varchar(10),
+name varchar(20),
+author varchar(20),
+primary key (c_id)
+);
