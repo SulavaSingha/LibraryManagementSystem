@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d95877-6610-4be8-bc31-648de08fa99e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/Book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/Book/BookImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/Lib/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/Lib/Librarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/Member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/Member/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +51,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
@@ -98,30 +94,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1589645031405" />
-    <state x="365" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1589636544647">
+    <state x="365" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1589646008202">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="365" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1589636544647" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1589638793030">
+    <state x="365" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1589646008202" />
+    <state x="258" y="110" key="FileChooserDialogImpl" timestamp="1589647664261">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589638793030" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589644714170">
+    <state x="258" y="110" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589647664261" />
+    <state width="618" height="163" key="GridCell.Tab.0.bottom" timestamp="1589647864279">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589644714170" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589644714170">
+    <state width="618" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589647864279" />
+    <state width="618" height="163" key="GridCell.Tab.0.center" timestamp="1589647864278">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589644714170" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589644714169">
+    <state width="618" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589647864278" />
+    <state width="618" height="163" key="GridCell.Tab.0.left" timestamp="1589647864277">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589644714169" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589644714170">
+    <state width="618" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589647864277" />
+    <state width="618" height="163" key="GridCell.Tab.0.right" timestamp="1589647864278">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589644714170" />
+    <state width="618" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589647864278" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1589644824817">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -130,10 +126,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="316" y="45" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1589286666960" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1589640406417">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1589647941281">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589640406417" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589647941281" />
     <state x="375" y="232" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589628333838">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -146,10 +142,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="2" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1589286487583" />
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1589644658114">
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1589647847783">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1589644658114" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1589647847783" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589645828309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
