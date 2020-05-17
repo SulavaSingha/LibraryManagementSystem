@@ -1,0 +1,9 @@
+com/library/Book/Publisher.class
+com/library/Book/BookItem.class
+com/library/Search/Catalog.class
+com/library/enums/Genre.class
+com/library/Publisher.class
+com/library/Book/Author.class
+com/library/service/rest/PublisherResource.class
+com/library/Search/Search.class
+com/library/LibraryServer.class
