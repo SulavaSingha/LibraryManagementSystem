@@ -1,4 +1,6 @@
 #idea configurations
 LibraryManagementSystem/.idea/*
+*.lst
 #ignore class files
 *.class
+*.jar
