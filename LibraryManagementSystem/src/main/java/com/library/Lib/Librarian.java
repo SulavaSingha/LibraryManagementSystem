@@ -1,11 +1,11 @@
 package com.library.Lib;
 
 import com.library.Account.Account;
-import com.library.Book.BookImpl;
+import com.library.Book.BookItem;
 import com.library.Member.Member;
 
 public class Librarian extends Account {
-    public boolean addBookItem(BookImpl bookItem){
+    public boolean addBookItem(BookItem bookItem){
       return true;
     }
 
