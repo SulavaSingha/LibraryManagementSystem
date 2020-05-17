@@ -1,14 +1,32 @@
 package com.library.Book;
 
 import com.library.enums.Genre;
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name="Book")
+@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class Book {
+    private long id;
     private String ISBN;
     private String name;
     private Author author;
     private Genre genre;
     private Publisher publisher;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "c_id")
+    public long getId() {
+        return id;
+    }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+    @Column(name="ISBN",nullable = false)
     public String getISBN() {
         return ISBN;
     }
@@ -17,6 +35,7 @@ public class Book {
         this.ISBN = ISBN;
     }
 
+    @Column(name="name",nullable = false)
     public String getName() {
         return name;
     }

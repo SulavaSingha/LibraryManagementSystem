@@ -1,0 +1,20 @@
+
+        <!DOCTYPE hibernate-configuration PUBLIC
+                "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- session factory config properties -->
+        <property name="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
+        <property name="hibernate.cache.use_second_level_cache">false</property>
+        <property name="hibernate.hbm2ddl.auto">none</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/libraryManagementSystem</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+        <property name="hibernate.connection.username">librarian</property>
+        <property name="hibernate.connection.password"></property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <mapping class="com.library.Book.Book"/>
+        <mapping class="com.library.Book.Author"/>
+    </session-factory>
+
+</hibernate-configuration>
