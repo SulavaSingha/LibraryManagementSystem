@@ -5,20 +5,23 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import javax.persistence.*;
-
+//@org.hibernate.annotations.NamedQuery(name="CREATE-BOOK",query="insert into Book values()")
 @Entity
-@Table(name="Book")
+@Table(name = "book")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class Book {
-    private long id;
-    private String ISBN;
-    private String name;
-    private Author author;
-    private Genre genre;
-    private Publisher publisher;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    //@GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "c_id")
+    private long id;
+    @Column(name = "ISBN", nullable = false)
+    private String ISBN;
+    @Column(name = "name", nullable = false)
+    private String name;
+//    private Author author;
+//    private Genre genre;
+//    private Publisher publisher;
+
     public long getId() {
         return id;
     }
@@ -26,7 +29,7 @@ public class Book {
     public void setId(long id) {
         this.id = id;
     }
-    @Column(name="ISBN",nullable = false)
+
     public String getISBN() {
         return ISBN;
     }
@@ -35,7 +38,6 @@ public class Book {
         this.ISBN = ISBN;
     }
 
-    @Column(name="name",nullable = false)
     public String getName() {
         return name;
     }
@@ -44,27 +46,27 @@ public class Book {
         this.name = name;
     }
 
-    public Author getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(Author author) {
-        this.author = author;
-    }
-
-    public Genre getGenre() {
-        return genre;
-    }
-
-    public void setGenre(Genre genre) {
-        this.genre = genre;
-    }
-
-    public Publisher getPublisher() {
-        return publisher;
-    }
-
-    public void setPublisher(Publisher publisher) {
-        this.publisher = publisher;
-    }
+//    public Author getAuthor() {
+//        return author;
+//    }
+//
+//    public void setAuthor(Author author) {
+//        this.author = author;
+//    }
+//
+//    public Genre getGenre() {
+//        return genre;
+//    }
+//
+//    public void setGenre(Genre genre) {
+//        this.genre = genre;
+//    }
+//
+//    public Publisher getPublisher() {
+//        return publisher;
+//    }
+//
+//    public void setPublisher(Publisher publisher) {
+//        this.publisher = publisher;
+//    }
 }
